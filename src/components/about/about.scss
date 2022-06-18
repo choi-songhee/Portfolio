@@ -1,0 +1,66 @@
+.tool {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__list {
+        border-bottom: 0.2rem solid #BFA5A4;
+        font-weight: 500;
+        line-height: 1.2;
+        padding: 6px 10px;
+        border-radius: 2rem;
+        color: #fff;
+        background-color: #BFA5A4;
+    }
+
+    @media screen and (max-width: 1024px) {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+
+        &__list {
+            margin: 10px 10px 0 0;
+        }
+    }
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 60px;
+
+    &__detail {
+        flex: 0 0 calc((100% - 40px) / 2);
+        min-height: 410px;
+        margin-bottom: 40px;
+        padding: 40px 35px;
+        background-color: #fff;
+    }
+
+    &__icon {
+        padding-bottom: 20px;
+        font-size: 50px;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    &__title {
+        display: block;
+        padding-bottom: 5px;
+        font-size: 18px;
+        color: #aaa;
+        font-weight: bold;
+        font-size: 'Montserrat', sans-serif;
+    }
+
+    &__desc {
+        line-height: 2;
+        white-space: pre-wrap;
+    }
+
+    @media screen and (max-width: 720px) {
+        &__detail {
+            flex: 0 0 100%;
+        }
+    }
+}
