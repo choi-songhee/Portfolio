@@ -54,7 +54,7 @@ const Main = () => {
         <div className="profile-text">
           <h1 className="left" ref={text1}>CHOI<br />
           SONG HEE</h1>
-          <h1 className="right" ref={text2}>FRONTEND</h1>
+          <h1 className="right" ref={text2}>Publisher</h1>
         </div>
 
 
